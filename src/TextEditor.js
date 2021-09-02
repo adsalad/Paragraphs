@@ -21,7 +21,7 @@ export default function TextEditor() {
     //
   }, []);
   return (
-    <div id="container" ref={wrapperRef}>
+    <div className="container" ref={wrapperRef}>
       Text Editor
     </div>
   );
